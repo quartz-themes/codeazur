@@ -1,13 +1,13 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: codeazur
+  pageTitle: Quartz 5
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: quartz-themes.github.io/codeazur
+  baseUrl: quartz-themes.github.io
   ignorePatterns:
     - private
     - templates
@@ -247,7 +247,7 @@ plugins:
   - source: "@quartz-themes/core"
     enabled: true
     options:
-      theme: codeazur
+      theme: default
       variation: null
 layout:
   groups:
